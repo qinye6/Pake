@@ -1,7 +1,7 @@
 import { PakeCliOptions } from './types.js';
 
 export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
-  icon: '',
+  icon: 'https://dh.qinye.cool/img/Q.ico',
   height: 780,
   width: 1200,
   fullscreen: false,
