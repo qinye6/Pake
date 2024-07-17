@@ -24,8 +24,8 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 // Just for cli development
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
-  url: 'https://weread.qq.com',
-  name: 'WeRead',
-  safeDomain: ['weread.qq.com'],
+  url: 'https://dh.qinye.cool',
+  name: 'qinye',
+  safeDomain: ['qinye.cool','dh.qinye.cool','www.qinye.cool','tool.qinye.cool','ai.qinye.asia'],
   hideTitleBar: true,
 };
